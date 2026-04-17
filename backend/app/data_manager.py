@@ -41,7 +41,8 @@ class DataManager:
         with open(self.portfolios_file, 'r', newline='') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                stocks.append({'stock_name': row['stock_name'], 'amount_egp': float(row['amount_egp'])})
+                if row['stock_name']:
+                    stocks.append({'stock_name': row['stock_name'], 'amount_egp': float(row['amount_egp'])})
         return stocks
     
     def add_portfolio_stock(self, stock_name: str, amount_egp: float) -> bool:
@@ -85,7 +86,8 @@ class DataManager:
         with open(self.watchlists_file, 'r', newline='') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                watchlists.append({'watchlist_id': row['watchlist_id'], 'watchlist_name': row['watchlist_name']})
+                if row['watchlist_id']:
+                    watchlists.append({'watchlist_id': row['watchlist_id'], 'watchlist_name': row['watchlist_name']})
         return watchlists
     
     def create_watchlist(self, watchlist_name: str) -> str:
@@ -124,11 +126,12 @@ class DataManager:
         with open(self.watchlist_items_file, 'r', newline='') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                items.append({
-                    'watchlist_id': row['watchlist_id'],
-                    'stock_name': row['stock_name'],
-                    'status': row['status']
-                })
+                if row['watchlist_id']:
+                    items.append({
+                        'watchlist_id': row['watchlist_id'],
+                        'stock_name': row['stock_name'],
+                        'status': row['status']
+                    })
         return items
     
     def get_watchlist_items(self, watchlist_id: str) -> List[Dict]:
