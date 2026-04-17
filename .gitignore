@@ -6,22 +6,3 @@ __pycache__/
 .venv/
 venv/
 
-# VSCode
-.vscode/
-*.code-workspace
-
-# Node
-node_modules/
-dist/
-build/
-npm-debug.log
-yarn-error.log
-pnpm-lock.yaml
-package-lock.json
-
-# Logs
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
