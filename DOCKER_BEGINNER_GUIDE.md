@@ -246,7 +246,7 @@ When you run this project with Docker:
 ### Step 2: Open Terminal/Command Prompt
 
 **Windows (Easiest)**:
-1. In File Explorer, go to: `D:\Projects\My_Stock_Tracker`
+1. In File Explorer, go to: `your-project-directory`
 2. Click address bar at top
 3. Type: `powershell`
 4. Press Enter
@@ -256,7 +256,7 @@ When you run this project with Docker:
 1. Open Command Prompt or PowerShell
 2. Type:
 ```bash
-cd D:\Projects\My_Stock_Tracker
+cd your-project-directory
 ```
 
 **Mac**:

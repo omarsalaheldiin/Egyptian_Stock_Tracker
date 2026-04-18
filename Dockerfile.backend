@@ -7,7 +7,7 @@ COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY backend .
-COPY src/data_manager.py ./app/
+COPY backend/app/data_manager.py ./app/
 
 EXPOSE 8000
 

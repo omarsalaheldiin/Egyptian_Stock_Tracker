@@ -5,7 +5,7 @@
 ### Getting Started
 
 **Q: Where do I run the application from?**
-A: You can run it from anywhere, but keep the project folder intact at: `d:\Projects\My_Stock_Tracker\`
+A: You can run it from anywhere, but keep the project folder intact at: `your-project-directory\`
 
 **Q: Do I need to install anything besides Python?**
 A: No! Tkinter comes with Python, and there are no other dependencies.
@@ -123,7 +123,7 @@ Make sure to check "Add Python to PATH" during installation
 **Error: "FileNotFoundError"**
 ```
 Solution: Make sure you're in the right directory
-cd d:\Projects\My_Stock_Tracker
+cd your-project-directory
 python src/main.py
 ```
 
@@ -142,7 +142,7 @@ Troubleshooting:
 
 **Problem: Can't find my data**
 ```
-Location: d:\Projects\My_Stock_Tracker\data\
+Location: your-project-directory\data\
 Files: portfolios.csv, watchlists.csv, watchlist_items.csv
 Solution: Copy data from another location if backed up
 ```
@@ -274,8 +274,8 @@ Solution:
 
 - [ ] Python 3.7+ installed? (`python --version`)
 - [ ] Tkinter available? (`python -m tkinter`)
-- [ ] All files in place? (`ls d:\Projects\My_Stock_Tracker\`)
-- [ ] CSV files exist? (`ls d:\Projects\My_Stock_Tracker\data\`)
+- [ ] All files in place? (`ls your-project-directory\`)
+- [ ] CSV files exist? (`ls your-project-directory\data\`)
 - [ ] Tried refreshing the view? (Click 🔄)
 - [ ] Tried restarting the app?
 - [ ] Tried restarting your computer?

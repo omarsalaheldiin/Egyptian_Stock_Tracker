@@ -131,7 +131,7 @@ Should show: `Docker version 24.x.x`
 
 ### Step 2: Open Terminal in Project Folder
 ```bash
-cd D:\Projects\My_Stock_Tracker
+cd your-project-directory
 ```
 
 ### Step 3: Start the App
@@ -342,7 +342,7 @@ docker-compose up --build
 
 ### ✅ Step 4: Open Terminal in Project Folder
 ```bash
-cd D:\Projects\My_Stock_Tracker
+cd your-project-directory
 ```
 
 ### ✅ Step 5: Run Project

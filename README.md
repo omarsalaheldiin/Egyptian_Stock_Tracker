@@ -149,7 +149,7 @@ docker --version
 1. **Open Terminal/Command Prompt**
 2. **Navigate** to project folder:
    ```bash
-   cd D:\Projects\My_Stock_Tracker
+   cd your-project-directory
    ```
 3. **Start the app**:
    ```bash

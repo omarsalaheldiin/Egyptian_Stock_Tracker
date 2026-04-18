@@ -70,7 +70,7 @@ A **complete, production-ready stock tracking web application** for the Egyptian
 
 ### ⚡ Fastest (Docker) - 2 minutes
 ```bash
-cd d:\Projects\My_Stock_Tracker
+cd your-project-directory
 docker-compose up
 # Then open http://localhost:3000
 ```
@@ -429,7 +429,7 @@ This means:
 
 ### Windows
 ```batch
-cd d:\Projects\My_Stock_Tracker
+cd your-project-directory
 docker-compose up
 ```
 

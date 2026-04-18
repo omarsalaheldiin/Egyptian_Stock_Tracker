@@ -62,7 +62,7 @@ My_Stock_Tracker/
 #### Installation
 ```bash
 # Navigate to project
-cd d:\Projects\My_Stock_Tracker
+cd your-project-directory
 
 # Start everything
 docker-compose up

@@ -97,7 +97,7 @@ My_Stock_Tracker/
 
 ### Step 1: Navigate
 ```bash
-cd d:\Projects\My_Stock_Tracker
+cd your-project-directory
 ```
 
 ### Step 2: Run
@@ -215,7 +215,7 @@ http://localhost:3000
 
 ```bash
 # 1. Navigate (10 secs)
-cd d:\Projects\My_Stock_Tracker
+cd your-project-directory
 
 # 2. Start (2-5 mins)
 docker-compose up

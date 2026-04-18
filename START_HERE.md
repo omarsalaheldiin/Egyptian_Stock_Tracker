@@ -42,7 +42,7 @@
 
 ### Command 1: Navigate
 ```bash
-cd D:\Projects\My_Stock_Tracker
+cd your-project-directory
 ```
 
 ### Command 2: Start
@@ -180,7 +180,7 @@ docker --version
 
 ### Step 3: Navigate to Project
 ```bash
-cd D:\Projects\My_Stock_Tracker
+cd your-project-directory
 ```
 
 ### Step 4: Start the App

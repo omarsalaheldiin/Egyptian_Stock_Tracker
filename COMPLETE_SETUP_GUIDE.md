@@ -71,7 +71,7 @@ Should show: `Docker version 24.x.x` (or similar)
 
 ### Command 1: Navigate to Project
 ```bash
-cd d:\Projects\My_Stock_Tracker
+cd your-project-directory
 ```
 
 ### Command 2: Start Docker Services
