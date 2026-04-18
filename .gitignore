@@ -1,5 +1,8 @@
+# Data files (contains user's personal portfolio data)
+data/
+*.csv
+
 # Python
-__pycache__/
 *.py[cod]
 *.egg-info/
 .env

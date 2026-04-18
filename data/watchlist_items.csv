@@ -1,7 +1,3 @@
 watchlist_id,stock_name,status
-wl-001,CIB,Hold
-wl-001,NBKK,Hold
-wl-002,ORHD,Buy
-wl-002,ELSEWEDY,Buy
-wl-003,CIB,Buy
-wl-003,NBKK,Take Profit
+test-id,ETELECOM,Buy
+e415f5ad-1392-44b2-9275-71400cc7809d,ADIB,Buy

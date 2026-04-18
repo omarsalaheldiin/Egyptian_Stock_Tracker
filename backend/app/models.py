@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List, Optional
 
 # Portfolio Models
@@ -23,9 +23,8 @@ class WatchlistItem(BaseModel):
     watchlist_name: str
 
 class WatchlistItemCreate(BaseModel):
-    watchlist_id: str
-    stock_name: str
-    status: str
+    stock_name: str = Field(..., min_length=1)
+    status: str = Field(..., min_length=1)
 
 class WatchlistItemUpdate(BaseModel):
     stock_name: str

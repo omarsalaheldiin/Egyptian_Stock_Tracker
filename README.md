@@ -406,7 +406,26 @@ docker-compose up
 
 ---
 
-## 📞 Support
+## � Data & Security
+
+**Your data is safe:**
+- ✅ All data stored **locally** in `/data` folder (CSV files)
+- ✅ CSV files are **NOT committed to Git** (added to `.gitignore`)
+- ✅ Safe to push to **public GitHub repositories**
+- ✅ Data persists after container stops
+- ✅ No external API calls or cloud uploads
+- ✅ No tracking or telemetry
+
+**First Setup:**
+1. Copy template files: `cp data/*.example data/` (remove `.example`)
+2. Edit with your actual data
+3. Your data stays private on your machine
+
+📖 See [data/README.md](data/README.md) for detailed setup
+
+---
+
+## �📞 Support
 
 ### If Something Goes Wrong
 
