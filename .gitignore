@@ -1,6 +1,7 @@
 # Data files (contains user's personal portfolio data)
-data/
+# Ignore actual CSV files but keep example templates
 *.csv
+!*.csv.example
 
 # Python
 *.py[cod]
